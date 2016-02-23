@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StartupController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1441"/>
+                        <viewControllerLayoutGuide type="bottom" id="1442"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.2627450980392157" green="0.60784313725490191" blue="1" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="25" id="61" textAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="106" y="286" width="164" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="66" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="128" y="331" width="119" height="30"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Enter Room">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="146.5" y="331.5" width="81" height="30"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enter Room ID" lineBreakMode="tailTruncation" minimumFontSize="10" id="67" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                                <rect key="frame" x="64" y="209" width="248" height="77"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="117.5" y="234.5" width="140" height="26.5"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="705" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="118" y="502" width="137" height="30"/>
+                                <state key="normal" title="Ask Question">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="778" destination="274" kind="show"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="142" y="479.5" width="91" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1069" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="128" y="555" width="119" height="30"/>
+                                <state key="normal" title="My Questions">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue id="1126" destination="1043" kind="show"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="140.5" y="523.5" width="94" height="30"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="0.0" id="2026"/>
+                            <constraint firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="67" secondAttribute="centerY" constant="86" id="2027"/>
+                            <constraint firstItem="61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="0.0" id="2028"/>
+                            <constraint firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="61" secondAttribute="centerY" constant="32" id="2029"/>
+                            <constraint firstItem="66" firstAttribute="top" secondItem="61" secondAttribute="bottom" constant="15" id="2030"/>
+                            <constraint firstItem="61" firstAttribute="trailing" secondItem="66" secondAttribute="trailing" constant="23" id="2031"/>
+                            <constraint firstItem="66" firstAttribute="leading" secondItem="61" secondAttribute="leading" constant="22" id="2032"/>
+                            <constraint firstItem="705" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="0.0" id="2033"/>
+                            <constraint firstItem="1069" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="0.0" id="2044"/>
+                            <constraint firstItem="1069" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="205" id="2045"/>
+                            <constraint firstItem="705" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="161" id="2046"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2026"/>
+                                <exclude reference="2027"/>
+                                <exclude reference="2028"/>
+                                <exclude reference="2029"/>
+                                <exclude reference="2030"/>
+                                <exclude reference="2031"/>
+                                <exclude reference="2032"/>
+                                <exclude reference="2033"/>
+                                <exclude reference="2044"/>
+                                <exclude reference="2045"/>
+                                <exclude reference="2046"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="2026"/>
+                                <include reference="2027"/>
+                                <include reference="2028"/>
+                                <include reference="2029"/>
+                                <include reference="2030"/>
+                                <include reference="2031"/>
+                                <include reference="2032"/>
+                                <include reference="2033"/>
+                                <include reference="2044"/>
+                                <include reference="2045"/>
+                                <include reference="2046"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="fldRoomID" destination="61" id="name-outlet-61"/>
+                        <outlet property="btnEnter" destination="66" id="name-outlet-66"/>
+                        <segue id="261" destination="57" kind="show" identifier="QuestionViewSegue"/>
+                        <outlet property="btnTest" destination="705" id="name-outlet-705"/>
+                        <outlet property="btnMyQuestions" destination="1069" id="name-outlet-1069"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="24"/>
+        </scene>
+        <scene sceneID="56">
+            <objects>
+                <viewController id="57" sceneMemberID="viewController" customClass="QuestionViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1443"/>
+                        <viewControllerLayoutGuide type="bottom" id="1444"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="58">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.2627450980392157" green="0.60784313725490191" blue="1" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Unable To Load Question!" lineBreakMode="wordWrap" id="72" translatesAutoresizingMaskIntoConstraints="NO" baselineAdjustment="none" textAlignment="center" numberOfLines="3" minimumFontSize="20">
+                                <rect key="frame" x="20" y="44" width="335" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="46" y="103" width="277" height="125"/>
+                                    <mask key="constraints">
+                                        <include reference="2419"/>
+                                        <include reference="2427"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="2419" firstItem="72" firstAttribute="height" constant="125"/>
+                                    <constraint id="2422" firstItem="72" firstAttribute="width" constant="277"/>
+                                    <constraint id="2427" firstItem="72" firstAttribute="width" constant="277"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2419"/>
+                                        <exclude reference="2422"/>
+                                        <exclude reference="2427"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="971" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="186" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="172.5" y="258.5" width="30" height="48"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="972" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="268" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="172.5" y="324.5" width="30" height="48"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="973" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="340" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="172.5" y="390.5" width="30" height="48"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="974" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="411" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="172.5" y="454.5" width="30" height="48"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="58" firstAttribute="centerY" secondItem="971" secondAttribute="centerY" constant="51" id="2402"/>
+                            <constraint firstItem="971" firstAttribute="centerX" secondItem="58" secondAttribute="centerX" constant="0.0" id="2403"/>
+                            <constraint firstItem="972" firstAttribute="centerY" secondItem="58" secondAttribute="centerY" constant="15" id="2404"/>
+                            <constraint firstItem="972" firstAttribute="centerX" secondItem="58" secondAttribute="centerX" constant="0.0" id="2405"/>
+                            <constraint firstItem="973" firstAttribute="centerX" secondItem="58" secondAttribute="centerX" constant="0.0" id="2406"/>
+                            <constraint firstItem="973" firstAttribute="centerY" secondItem="58" secondAttribute="centerY" constant="81" id="2407"/>
+                            <constraint firstItem="974" firstAttribute="centerY" secondItem="58" secondAttribute="centerY" constant="145" id="2408"/>
+                            <constraint firstItem="974" firstAttribute="centerX" secondItem="58" secondAttribute="centerX" constant="0.0" id="2409"/>
+                            <constraint firstItem="58" firstAttribute="centerY" secondItem="72" secondAttribute="centerY" constant="168" id="2412"/>
+                            <constraint firstItem="58" firstAttribute="centerX" secondItem="72" secondAttribute="centerX" constant="3" id="2413"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2402"/>
+                                <exclude reference="2403"/>
+                                <exclude reference="2404"/>
+                                <exclude reference="2405"/>
+                                <exclude reference="2406"/>
+                                <exclude reference="2407"/>
+                                <exclude reference="2408"/>
+                                <exclude reference="2409"/>
+                                <exclude reference="2412"/>
+                                <exclude reference="2413"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="2402"/>
+                                <include reference="2403"/>
+                                <include reference="2404"/>
+                                <include reference="2405"/>
+                                <include reference="2406"/>
+                                <include reference="2407"/>
+                                <include reference="2408"/>
+                                <include reference="2409"/>
+                                <include reference="2412"/>
+                                <include reference="2413"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="lblQuestion" destination="72" id="name-outlet-72"/>
+                        <outlet property="btnAns1" destination="971" id="name-outlet-971"/>
+                        <outlet property="btnAns2" destination="972" id="name-outlet-972"/>
+                        <outlet property="btnAns3" destination="973" id="name-outlet-973"/>
+                        <outlet property="btnAns4" destination="974" id="name-outlet-974"/>
+                        <segue id="1952" destination="BYZ-38-t0r" kind="show" identifier="StartupViewSegue"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="24"/>
+        </scene>
+        <scene sceneID="273">
+            <objects>
+                <viewController id="274" sceneMemberID="viewController" customClass="AskViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1445"/>
+                        <viewControllerLayoutGuide type="bottom" id="1446"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="275">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.2627450980392157" green="0.60784313725490191" blue="1" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="278" textAlignment="center" placeholder="Enter Question Here" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="33" y="157" width="308" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="108.5" y="157.5" width="152" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="280" placeholder="Answer 2" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="127" y="274" width="131" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="281" placeholder="Answer 1" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="124" y="224" width="134" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="282" placeholder="Answer 3" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="129" y="321" width="128" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="283" placeholder="Answer 4" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="129" y="374" width="129" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="365" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="136" y="569" width="121" height="36"/>
+                                <state key="normal" title="Start Poll">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="163" y="465.5" width="63" height="30"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="389" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                                <rect key="frame" x="20" y="424" width="335" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.23529411764705882" blue="0.27450980392156865" alpha="1"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="187.5" y="422.5" width="0.0" height="0.0"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="782" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="136" y="613" width="121" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue id="923" destination="BYZ-38-t0r" kind="show"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="171.5" y="512.5" width="38" height="18"/>
+                                </variation>
+                                <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="2081" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                                <rect key="frame" x="166" y="466" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="193.5" y="441.5" width="0.0" height="0.0"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1585"/>
+                                <exclude reference="1586"/>
+                                <exclude reference="2053"/>
+                                <exclude reference="2054"/>
+                                <exclude reference="2055"/>
+                                <exclude reference="2056"/>
+                                <exclude reference="2057"/>
+                                <exclude reference="2058"/>
+                                <exclude reference="2059"/>
+                                <exclude reference="2060"/>
+                                <exclude reference="2064"/>
+                                <exclude reference="2074"/>
+                                <exclude reference="2079"/>
+                                <exclude reference="2080"/>
+                                <exclude reference="2082"/>
+                                <exclude reference="2083"/>
+                                <exclude reference="2084"/>
+                                <exclude reference="2085"/>
+                                <exclude reference="2086"/>
+                                <exclude reference="2087"/>
+                            </mask>
+                            <mask key="subviews">
+                                <exclude reference="2081"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1585"/>
+                                <include reference="1586"/>
+                                <include reference="2053"/>
+                                <include reference="2054"/>
+                                <include reference="2055"/>
+                                <include reference="2056"/>
+                                <include reference="2057"/>
+                                <include reference="2058"/>
+                                <include reference="2059"/>
+                                <include reference="2060"/>
+                                <include reference="2064"/>
+                                <include reference="2074"/>
+                                <include reference="2079"/>
+                                <include reference="2080"/>
+                                <include reference="2082"/>
+                                <include reference="2083"/>
+                                <include reference="2084"/>
+                                <include reference="2085"/>
+                                <include reference="2086"/>
+                                <include reference="2087"/>
+                            </mask>
+                            <mask key="subviews">
+                                <include reference="2081"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint firstItem="275" firstAttribute="centerY" secondItem="278" secondAttribute="centerY" constant="161" id="2053"/>
+                            <constraint firstItem="275" firstAttribute="centerX" secondItem="278" secondAttribute="centerX" constant="3" id="2054"/>
+                            <constraint firstItem="281" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="3" id="2055"/>
+                            <constraint firstItem="275" firstAttribute="centerY" secondItem="281" secondAttribute="centerY" constant="94" id="2056"/>
+                            <constraint firstItem="275" firstAttribute="centerY" secondItem="280" secondAttribute="centerY" constant="44" id="2057"/>
+                            <constraint firstItem="280" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="5" id="2058"/>
+                            <constraint firstItem="282" firstAttribute="centerY" secondItem="275" secondAttribute="centerY" constant="2" id="2059"/>
+                            <constraint firstItem="282" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="5" id="2060"/>
+                            <constraint firstItem="283" firstAttribute="centerY" secondItem="275" secondAttribute="centerY" constant="55" id="2064"/>
+                            <constraint firstItem="389" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="0.0" id="2074"/>
+                            <constraint firstItem="283" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="6" id="2079"/>
+                            <constraint firstItem="389" firstAttribute="centerY" secondItem="275" secondAttribute="centerY" constant="89" id="2080"/>
+                            <constraint firstItem="2081" firstAttribute="centerY" secondItem="275" secondAttribute="centerY" constant="108" id="2082"/>
+                            <constraint firstItem="2081" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="6" id="2083"/>
+                            <constraint firstItem="365" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="7" id="2084"/>
+                            <constraint firstItem="365" firstAttribute="centerY" secondItem="275" secondAttribute="centerY" constant="147" id="2085"/>
+                            <constraint firstItem="782" firstAttribute="centerX" secondItem="275" secondAttribute="centerX" constant="3" id="2086"/>
+                            <constraint firstItem="782" firstAttribute="centerY" secondItem="275" secondAttribute="centerY" constant="188" id="2087"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtQuestion" destination="278" id="name-outlet-278"/>
+                        <outlet property="txtA1" destination="281" id="name-outlet-281"/>
+                        <outlet property="txtA2" destination="280" id="name-outlet-280"/>
+                        <outlet property="txtA3" destination="282" id="name-outlet-282"/>
+                        <outlet property="txtA4" destination="283" id="name-outlet-283"/>
+                        <outlet property="lblException" destination="389" id="name-outlet-389"/>
+                        <outlet property="btnSubmit" destination="365" id="name-outlet-365"/>
+                        <outlet property="btnBack" destination="782" id="name-outlet-782"/>
+                        <outlet property="lblCode" destination="2081" id="name-outlet-2081"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="276" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2" y="872"/>
+        </scene>
+        <scene sceneID="1042">
+            <objects>
+                <tableViewController id="1043" sceneMemberID="viewController" customClass="MyQuestionsViewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1044" separatorStyle="none">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="1047" rowHeight="44" customClass="CustomCellView" reuseIdentifier="taskcell">
+                                <rect key="frame" x="0.0" y="118" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1047" id="1048">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="1135" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                            <rect key="frame" x="12" y="11" width="42" height="21"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="1136" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                            <rect key="frame" x="74" y="11" width="281" height="21"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="lblRoomCode" destination="1135" id="name-outlet-1135"/>
+                                    <outlet property="lblQuestion" destination="1136" id="name-outlet-1136"/>
+                                    <outlet property="taskcell" destination="1048" id="name-outlet-1048"/>
+                                    <segue id="1271" destination="1063" kind="show" identifier="DataViewSegue"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1043" id="1045"/>
+                            <outlet property="delegate" destination="1043" id="1046"/>
+                        </connections>
+                        <color key="sectionIndexTrackingBackgroundColor" colorSpace="calibratedRGB" red="0.2627450980392157" green="0.60784313725490191" blue="1" alpha="1"/>
+                        <view contentMode="scaleToFill" id="1621" key="tableHeaderView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.2627450980392157" green="0.60784313725490191" blue="1" alpha="1"/>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                <mask key="subviews">
+                                    <include reference="1623"/>
+                                    <include reference="1624"/>
+                                </mask>
+                            </variation>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="My Questions" lineBreakMode="tailTruncation" minimumFontSize="10" id="1623" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                    <rect key="frame" x="167" y="25" width="42" height="21"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="137" y="20" width="167" height="21"/>
+                                    </variation>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1624" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                    <rect key="frame" x="0.0" y="20" width="46" height="30"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="24"/>
+                                    <state key="normal" title="Back">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    </state>
+                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="20" y="16" width="81" height="30"/>
+                                    </variation>
+                                    <connections>
+                                        <segue id="1769" destination="BYZ-38-t0r" kind="showDetail"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="1623"/>
+                                    <exclude reference="1624"/>
+                                </mask>
+                            </variation>
+                        </view>
+                    </tableView>
+                    <connections>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1049" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="842"/>
+        </scene>
+        <scene sceneID="1062">
+            <objects>
+                <viewController id="1063" sceneMemberID="viewController" customClass="QuestionDataViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1447"/>
+                        <viewControllerLayoutGuide type="bottom" id="1448"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="1064">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0.2627450980392157" green="0.60784313725490191" blue="1" alpha="1"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1144" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="164" y="617" width="46" height="30"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue id="1420" destination="1043" kind="show"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="164.5" y="538.5" width="46" height="30"/>
+                                </variation>
+                            </button>
+                            <view contentMode="center" id="2170" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="58" y="251" width="260" height="232"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.20392156862745098" green="0.60784313725490191" blue="1" alpha="1"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="0.0" y="193.5" width="375" height="315"/>
+                                    <mask key="constraints">
+                                        <include reference="2384"/>
+                                        <include reference="2385"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="2384" firstAttribute="width" constant="375"/>
+                                    <constraint id="2385" firstAttribute="height" constant="315"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2384"/>
+                                        <exclude reference="2385"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" minimumFontSize="10" id="2115" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" numberOfLines="2">
+                                <rect key="frame" x="166" y="56" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="187.5" y="144.5" width="0.0" height="0.0"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2115"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2105"/>
+                                <exclude reference="2106"/>
+                                <exclude reference="2139"/>
+                                <exclude reference="2147"/>
+                                <exclude reference="2310"/>
+                                <exclude reference="2311"/>
+                                <exclude reference="2322"/>
+                                <exclude reference="2323"/>
+                                <exclude reference="2330"/>
+                                <exclude reference="2331"/>
+                                <exclude reference="2348"/>
+                                <exclude reference="2349"/>
+                                <exclude reference="2354"/>
+                                <exclude reference="2355"/>
+                                <exclude reference="2359"/>
+                                <exclude reference="2360"/>
+                                <exclude reference="2382"/>
+                                <exclude reference="2383"/>
+                                <exclude reference="2386"/>
+                                <exclude reference="2390"/>
+                                <exclude reference="2393"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1824"/>
+                                <include reference="2115"/>
+                                <include reference="2131"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2105"/>
+                                <include reference="2106"/>
+                                <include reference="2139"/>
+                                <include reference="2147"/>
+                                <include reference="2160"/>
+                                <include reference="2310"/>
+                                <include reference="2311"/>
+                                <include reference="2322"/>
+                                <include reference="2323"/>
+                                <include reference="2330"/>
+                                <include reference="2331"/>
+                                <include reference="2348"/>
+                                <include reference="2349"/>
+                                <include reference="2354"/>
+                                <include reference="2355"/>
+                                <include reference="2359"/>
+                                <include reference="2360"/>
+                                <include reference="2382"/>
+                                <include reference="2383"/>
+                                <include reference="2386"/>
+                                <include reference="2390"/>
+                                <include reference="2393"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint firstItem="1144" firstAttribute="centerX" secondItem="1064" secondAttribute="centerX" constant="0.0" id="2105"/>
+                            <constraint firstItem="1144" firstAttribute="centerY" secondItem="1064" secondAttribute="centerY" constant="220" id="2106"/>
+                            <constraint firstItem="2115" firstAttribute="centerX" secondItem="1064" secondAttribute="centerX" constant="0.0" id="2139"/>
+                            <constraint firstItem="1064" firstAttribute="centerY" secondItem="2115" secondAttribute="centerY" constant="189" id="2147"/>
+                            <constraint id="2386" constant="0.0" firstItem="1064" firstAttribute="trailing" secondItem="2170" secondAttribute="trailing"/>
+                            <constraint firstItem="2170" firstAttribute="leading" secondItem="1064" secondAttribute="leading" constant="0.0" id="2390"/>
+                            <constraint firstItem="1144" firstAttribute="top" secondItem="2170" secondAttribute="bottom" constant="30" id="2393"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="QuestionDataView" destination="1064" id="name-outlet-1064"/>
+                        <outlet property="btnReturn" destination="1144" id="name-outlet-1144"/>
+                        <outlet property="lblQuestion" destination="2115" id="name-outlet-2115"/>
+                        <outlet property="vwChart" destination="2170" id="name-outlet-2170"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1065" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1293" y="843"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blurred-background-1.jpg" width="700" height="525"/>
+        <image name="Background.png" width="750" height="1334"/>
+        <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="Icon-Small-40.png" width="80" height="80"/>
+        <image name="Icon-Small-50.png" width="100" height="100"/>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="Icon-72.png" width="144" height="144"/>
+        <image name="Icon-76.png" width="152" height="152"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-60.png" width="120" height="120"/>
+        <image name="Iphone background_retina.png" width="640" height="1136"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>

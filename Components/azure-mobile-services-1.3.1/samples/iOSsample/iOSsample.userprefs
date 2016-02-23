@@ -1,0 +1,5 @@
+﻿<Properties>
+  <DisabledProjects>
+    <String>iOSsample/iOSsample.csproj</String>
+  </DisabledProjects>
+</Properties>

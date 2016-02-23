@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Pollzit/Pollzit.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pollzit/AskViewController.cs">
+    <Files>
+      <File FileName="Pollzit/MyQuestionsViewController.cs" Line="1" Column="1" />
+      <File FileName="Pollzit/QuestionViewController.cs" Line="1" Column="1" />
+      <File FileName="Pollzit/StartupController.cs" Line="1" Column="1" />
+      <File FileName="Pollzit/AskViewController.cs" Line="72" Column="1" />
+      <File FileName="Pollzit/Main.cs" Line="1" Column="1" />
+      <File FileName="Pollzit/Info.plist" />
+      <File FileName="Pollzit/Entitlements.plist" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/9.1.0.18/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
+      <File FileName="Pollzit/QuestionSQLAdapter.cs" Line="1" Column="1" />
+      <File FileName="Pollzit/QuestionDataViewController.cs" Line="1" Column="1" />
+      <File FileName="Pollzit/Helpers/RootTableSource.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

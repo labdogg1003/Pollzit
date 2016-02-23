@@ -1,0 +1,17 @@
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.Runtime.Serialization.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Pollzit.exe
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.Xml.Linq.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.Xml.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Xamarin.iOS.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.Core.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Microsoft.WindowsAzure.Mobile.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/mscorlib.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Newtonsoft.Json.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Microsoft.WindowsAzure.Mobile.Ext.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Mono.CSharp.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Microsoft.CSharp.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.Net.Http.Primitives.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Xamarin.Controls.BarChart.iOS.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/System.Net.Http.dll
+/Users/labdog/Projects/Pollzit/Pollzit/obj/iPhone/Release/mtouch-cache/32/Link/Mono.Dynamic.Interpreter.dll

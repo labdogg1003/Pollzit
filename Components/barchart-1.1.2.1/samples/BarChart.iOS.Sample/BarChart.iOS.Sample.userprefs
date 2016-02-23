@@ -1,0 +1,35 @@
+﻿<Properties StartupItem="BarChart.iOS.Sample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Pollzit/QuestionDataViewController.cs">
+    <Files>
+      <File FileName="../../../../Pollzit/MyQuestionsViewController.cs" Line="103" Column="51" />
+      <File FileName="../../../../Pollzit/QuestionViewController.cs" Line="1" Column="1" />
+      <File FileName="../../../../Pollzit/QuestionDataViewController.cs" Line="76" Column="45" />
+      <File FileName="../../../../Pollzit/Main.cs" Line="12" Column="1" />
+      <File FileName="../../../../Pollzit/QuestionJsonService.cs" Line="53" Column="4" />
+      <File FileName="SampleViewController.cs" Line="70" Column="8" />
+      <File FileName="../../../../Pollzit/QuestionDataViewController.designer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BarChart.iOS.Sample" expanded="True">
+            <Node name="BarChart.iOS.Sample" expanded="True" />
+          </Node>
+          <Node name="Pollzit" expanded="True">
+            <Node name="Pollzit" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="QuestionDataViewController.cs" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

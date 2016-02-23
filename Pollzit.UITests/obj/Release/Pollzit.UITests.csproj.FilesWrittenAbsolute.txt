@@ -1,0 +1,7 @@
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/bin/Release/Pollzit.UITests.dll.mdb
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/bin/Release/Pollzit.UITests.dll
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/obj/Release/Pollzit.UITests.dll
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/obj/Release/Pollzit.UITests.dll.mdb
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/bin/Release/nunit.framework.dll
+/Users/labdog/Projects/Pollzit/Pollzit.UITests/bin/Release/Xamarin.UITest.dll

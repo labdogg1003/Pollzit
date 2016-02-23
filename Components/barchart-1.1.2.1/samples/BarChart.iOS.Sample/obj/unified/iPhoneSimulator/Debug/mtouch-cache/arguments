@@ -1,0 +1,39 @@
+# Version: 9.1.0.18 (xcode7.1: 7426bd7)
+# [first argument, ignore] # /Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/samples/BarChart.iOS.Sample/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.1.0.18/bin/mtouch \
+	--cache \
+	/Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/samples/BarChart.iOS.Sample/obj/unified/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/samples/BarChart.iOS.Sample/bin/unified/iPhoneSimulator/Debug/BarChartiOSSample.app \
+	--executable \
+	BarChartiOSSample \
+	--debug \
+	--profiling \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.1 \
+	--targetver \
+	7.0 \
+	"--abi=i386,x86_64" \
+	--symbollist \
+	/Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/samples/BarChart.iOS.Sample/obj/unified/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/lib/ios-unified/Xamarin.Controls.BarChart.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/lib/ios-unified/Xamarin.Controls.BarChart.iOS.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/labdog/Projects/Pollzit/Components/barchart-1.1.2.1/samples/BarChart.iOS.Sample/bin/unified/iPhoneSimulator/Debug//BarChartiOSSample.exe \

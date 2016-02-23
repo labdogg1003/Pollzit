@@ -1,0 +1,17 @@
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/ibtool/AllianceChartController.nib
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/Icon.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/Icon@2x.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/Icon-60@2x.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/Icon-72.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/Icon-72@2x.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/Default-568h@2x.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/optimized/
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/img_pop_tip.png
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/bin/iPhoneSimulator/Debug/Charts.Unified.exe.mdb
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/bin/iPhoneSimulator/Debug/Charts.Unified.exe
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/Charts.Unified.exe
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/obj/iPhoneSimulator/Debug/Charts.Unified.exe.mdb
+/Users/labdog/Projects/Pollzit/Components/AllianceChart-2.0/samples/Sample/Sample/bin/iPhoneSimulator/Debug/Alliance.Charts.dll
